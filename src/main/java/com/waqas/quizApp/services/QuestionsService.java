@@ -1,10 +1,10 @@
-package com.waqas.quizApp.questions;
+package com.waqas.quizApp.services;
 
 
 import com.waqas.quizApp.ApiResponse;
+import com.waqas.quizApp.data.Questions;
+import com.waqas.quizApp.repositories.QuestionsRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.http.HttpStatus;
-import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

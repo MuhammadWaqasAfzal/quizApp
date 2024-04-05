@@ -1,7 +1,9 @@
-package com.waqas.quizApp.questions;
+package com.waqas.quizApp.controllers;
 
 
 import com.waqas.quizApp.ApiResponse;
+import com.waqas.quizApp.data.Questions;
+import com.waqas.quizApp.services.QuestionsService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;

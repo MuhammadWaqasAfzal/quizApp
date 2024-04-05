@@ -1,4 +1,4 @@
-package com.waqas.quizApp.questions;
+package com.waqas.quizApp.data;
 
 
 import com.waqas.quizApp.ApiResponse;
